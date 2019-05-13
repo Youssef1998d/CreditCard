@@ -1,0 +1,113 @@
+.main{
+  background-color: rgb(255, 255, 255);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.creditCardName{
+  text-align: end;
+  color:azure;
+  font-family: 'Fira Sans', sans-serif;
+  margin:5px 8px 0 0;
+  font-weight:800;
+}
+
+.chip{
+  width:45px;
+  height:45px;
+}
+
+.cardHolderName{
+  font-weight:800;
+  font-family: 'Anton', sans-serif;
+  color:azure;
+  font-size:10px;
+  margin:5px; 
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.creditCardNumber{
+  background-color: rgba(184, 122, 8, 0.192);
+  color:rgba(105, 65, 3, 0.719);
+  font-family: 'Gugi', cursive;
+}
+
+.creditCardSmart{
+  display:flex;
+  justify-content:flex-start;
+  font-family: 'Anton', sans-serif;
+}
+
+.xInfo{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  font-family: 'Anton', sans-serif;
+  color:azure;
+}
+
+.creditCardExpiration{
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  font-family: 'Anton', sans-serif;
+  color:azure;
+}
+
+.dateExpirationForm{
+  font-size: 6px;
+  font-weight: 100;
+  font-family: 'Anton', sans-serif;
+  color:azure;
+}
+
+.dateExpirationValue{
+  font-size:16px;
+  font-weight:400;
+  font-family: 'Anton', sans-serif;
+  color:azure;
+}
+
+.thruExpiration{
+  font-size: 6px;
+  font-weight: 100;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  color:azure;
+}
+
+.layoutExpiration{
+  display:flex;
+  flex-direction : column;
+  align-items:center;
+}
+
+.thruExpiration{
+}
+
+.creditCardBody{
+  border : 1px hidden white;
+  border-radius:30px;
+  background-image: url(maxresdefault.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  margin:60px;
+  padding:5px 10px;
+  display:flex;
+  flex-direction:column;
+}
+
+.secondarySection{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+}
+
+.visa{
+  background-image: url('téléchargement.jpg');
+  background-size:contain;
+  background-repeat: no-repeat;
+  margin-left: 9px;
+  color:transparent
+}
